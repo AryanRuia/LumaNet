@@ -173,11 +173,11 @@ Cost Multiplier: Fiber is 133.9x more expensive
 ```
 
 ### Interpretation
-- **331 seconds**: ~5.5 minutes to sync 5MB across 50 nodes
-- **100% efficiency**: All nodes received data successfully
-- **81.6% reliability**: 81.6% of transmission attempts succeeded
-- **$2.3M savings**: LumaNet is dramatically cheaper over 5 years
-- **133.9x**: Fiber costs 134x more than wireless mesh
+- 331 seconds: ~5.5 minutes to sync 5MB across 50 nodes
+- 100% efficiency: All nodes received data successfully
+- 81.6% reliability: 81.6% of transmission attempts succeeded
+- $2.3M savings: LumaNet is dramatically cheaper over 5 years
+- 133.9x: Fiber costs 134x more than wireless mesh
 
 ## Key Insights & Recommendations
 
@@ -296,9 +296,9 @@ Install with: `pip install numpy networkx matplotlib`
 
 ## Performance Notes
 
-- **Computational complexity**: O(n²) for topology (n = number of nodes)
-- **Memory usage**: ~1KB per node + 10KB per edge
-- **Simulation speed**: 500 time steps × 50 nodes ≈ 5-10 seconds
+- Computational complexity: O(n²) for topology (n = number of nodes)
+- Memory usage: ~1KB per node + 10KB per edge
+- Simulation speed: 500 time steps × 50 nodes ≈ 5-10 seconds
 
 For large-scale simulations (>500 nodes):
 - Consider reducing `SIMULATION_TIME_STEPS`
@@ -316,20 +316,12 @@ This simulation is designed for:
 
 ## Future Enhancements
 
-- [ ] Mobile node support
-- [ ] Directional antenna models
-- [ ] Multi-hop scheduling optimization
-- [ ] Packet routing protocols (AODV, DSR)
-- [ ] QoS metrics
-- [ ] 3D terrain mapping
-- [ ] Real GPS coordinate import
-- [ ] Time-dependent analysis (day/night power)
-- [ ] Video: Network animation export
-
----
-
-**Created for**: LumaNet - Offline community networks for underserved regions
-
-**Last Updated**: January 2026
-
-**Author**: Developed for Algorithmic Trading / Connectivity Projects
+- Mobile node support
+- Directional antenna models
+- Multi-hop scheduling optimization
+- Packet routing protocols (AODV, DSR)
+- QoS metrics
+- 3D terrain mapping
+- Real GPS coordinate import
+- Time-dependent analysis (day/night power)
+- Video: Network animation export
